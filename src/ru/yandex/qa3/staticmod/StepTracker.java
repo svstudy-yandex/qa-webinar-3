@@ -12,4 +12,10 @@ public class StepTracker {
         //...
         return converter.stepsToKcal(steps);
     }
+
+    static class MonthData {
+        MonthData() {
+            //converter.stepsToKilometers(0);
+        }
+    }
 }
